@@ -1,7 +1,7 @@
 Name:       centos-release-scl
 Epoch:      10
 Version:    6
-Release:    7%{?dist}
+Release:    8%{?dist}
 Summary:    Software collections from the CentOS SCLo SIG
 
 License:    GPLv2
@@ -20,6 +20,8 @@ yum Configs and basic docs for Software Collections as delivered via the CentOS 
 %install
 install -D -m 644 %{SOURCE0} %{buildroot}%{_sysconfdir}/yum.repos.d/CentOS-SCLo-scl.repo
 sed -i -e "s/SCLGROUP/sclo/g" %{buildroot}%{_sysconfdir}/yum.repos.d/CentOS-SCLo-scl.repo
+# variable $releasever in RHEL might expand into something like 7Server, which is not what we want here
+sed -i -e "s/\$releasever/%{?rhel}%{!?rhel:\$releasever}/g" %{buildroot}%{_sysconfdir}/yum.repos.d/CentOS-SCLo-scl.repo
 install -p -d %{buildroot}%{_sysconfdir}/pki/rpm-gpg
 install -m 644 %{SOURCE1} %{buildroot}%{_sysconfdir}/pki/rpm-gpg
 
@@ -34,6 +36,9 @@ install -m 644 %{SOURCE2} %{buildroot}/%{_docdir}/centos-release-scl
 %{_docdir}/centos-release-scl/*
 
 %changelog
+* Mon Jan 18 2016 Honza Horak <hhorak@redhat.com> - 10:6-8
+- Use explicit releasever in repo file
+
 * Mon Jan 18 2016 Honza Horak <hhorak@redhat.com> - 10:6-7
 - Remove centos-release* dependencies for RHEL variant
 
