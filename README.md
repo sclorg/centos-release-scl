@@ -4,6 +4,8 @@ This package provides yum Configs and basic docs for Software Collections
 as delivered via the CentOS SCLo SIG only (so called sclo namespace at
 https://wiki.centos.org/SpecialInterestGroup/SCLo).
 
+## How to install SCLo packages on CentOS systems
+
 On CentOS, there are packages `centos-release-scl` and `centos-release-scl-rh`
 available in `centos-extra` repository, so for installing SCLo reposo
 on CentOS, run:
@@ -11,6 +13,8 @@ on CentOS, run:
 ```
 sudo yum install centos-release-scl
 ```
+
+## How to install SCLo packages on RHEL systems
 
 On RHEL, there is no `centos-release-scl-rh` package available and users are expected to enable RHSCL repository, like this:
 
@@ -34,4 +38,4 @@ sudo yum install centos-release-scl
 
 Again, installing this `centos-release-scl` package from Copr repository above is only expected to be done on RHEL systems.
 
-*Important*: Please, mind, that packages build by SCLo SIG are not supported and are not part of the supported Red Hat portfolio. For installing supported Software Collections packages, install packages from official RHSCL repository only.
+**Important**: Please, mind, that packages build by SCLo SIG are not supported and are not part of the supported Red Hat portfolio. For installing supported Software Collections packages, install packages from official RHSCL repository only.
