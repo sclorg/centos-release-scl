@@ -28,7 +28,7 @@ sudo yum-config-manager --enable rhel-server-rhscl-7-rpms
 
 For rare cases where there is no RHSCL channel available, you can enable CentOS SIG by installing this package (example for RHEL-7):
 ```
-sudo yum-config-manager --add-repo=https://copr.fedoraproject.org/coprs/rhscl/centos-release-scl-rh/repo/epel-7/rhscl-centos-release-scl-rh-epel-7.repo
+sudo yum-config-manager --add-repo=https://copr.fedoraproject.org/coprs/rhscl/centos-release-scl/repo/epel-7/rhscl-centos-release-scl-epel-7.repo
 sudo yum install centos-release-scl-rh
 ```
 
