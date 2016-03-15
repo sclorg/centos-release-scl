@@ -1,0 +1,19 @@
+# CentOS-SCLo-SCLGROUP.repo
+#
+# Please see http://wiki.centos.org/SpecialInterestGroup/SCLo for more
+# information
+
+[centos-sclo-SCLGROUP]
+name=CentOS-$releasever - SCLo SCLGROUP
+baseurl=http://mirror.centos.org/centos/$releasever/sclo/$basearch/SCLGROUP/
+gpgcheck=1
+enabled=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-SIG-SCLo
+
+[centos-sclo-SCLGROUP-testing]
+name=CentOS-$releasever - SCLo SCLGROUP Testing
+baseurl=http://buildlogs.centos.org/centos/$releasever/sclo/$basearch/SCLGROUP/
+gpgcheck=1
+enabled=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-SIG-SCLo
+
