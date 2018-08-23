@@ -1,0 +1,41 @@
+# CentOS-7-SCLo-Vault.repo
+#
+# CentOS Vault holds packages from previous releases within the same CentOS Version
+# these are packages obsoleted by the current release and should usually not
+# be used in production
+#-----------------
+
+[C7.1-sclo-SCLGROUP-vault]
+name=CentOS-7.1 -  SCLGROUP Vault
+baseurl=http://vault.centos.org/7.1.1503/sclo/$basearch/SCLGROUP/
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
+enabled=0
+
+[C7.2-sclo-SCLGROUP-vault]
+name=CentOS-7.2 -  SCLGROUP Vault
+baseurl=http://vault.centos.org/7.2.1511/sclo/$basearch/SCLGROUP/
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
+enabled=0
+
+[C7.3-sclo-SCLGROUP-vault]
+name=CentOS-7.3 -  SCLGROUP Vault
+baseurl=http://vault.centos.org/7.3.1611/sclo/$basearch/SCLGROUP/
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
+enabled=0
+
+[C7.4-sclo-SCLGROUP-vault]
+name=CentOS-7.4 -  SCLGROUP Vault
+baseurl=http://vault.centos.org/7.4.1708/sclo/$basearch/SCLGROUP/
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
+enabled=0
+
+[C7.5-sclo-SCLGROUP-vault]
+name=CentOS-7.5 -  SCLGROUP Vault
+baseurl=http://vault.centos.org/7.5.1804/sclo/$basearch/SCLGROUP/
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-7
+enabled=0

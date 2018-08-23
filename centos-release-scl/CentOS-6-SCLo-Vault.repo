@@ -1,0 +1,83 @@
+# CentOS-6-SCLo-Vault.repo
+#
+# CentOS Vault holds packages from previous releases within the same CentOS Version
+# these are packages obsoleted by the current release and should usually not
+# be used in production
+#-----------------
+
+[C6.0-sclo-SCLGROUP-vault]
+name=CentOS-6.0 -  SCLGROUP Vault
+baseurl=http://vault.centos.org/6.0/sclo/$basearch/SCLGROUP/
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-6
+enabled=0
+
+[C6.1-sclo-SCLGROUP-vault]
+name=CentOS-6.1 -  SCLGROUP Vault
+baseurl=http://vault.centos.org/6.1/sclo/$basearch/SCLGROUP/
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-6
+enabled=0
+
+[C6.2-sclo-SCLGROUP-vault]
+name=CentOS-6.2 -  SCLGROUP Vault
+baseurl=http://vault.centos.org/6.2/sclo/$basearch/SCLGROUP/
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-6
+enabled=0
+
+[C6.3-sclo-SCLGROUP-vault]
+name=CentOS-6.3 -  SCLGROUP Vault
+baseurl=http://vault.centos.org/6.3/sclo/$basearch/SCLGROUP/
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-6
+enabled=0
+
+[C6.4-sclo-SCLGROUP-vault]
+name=CentOS-6.4 -  SCLGROUP Vault
+baseurl=http://vault.centos.org/6.4/sclo/$basearch/SCLGROUP/
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-6
+enabled=0
+
+[C6.5-sclo-SCLGROUP-vault]
+name=CentOS-6.5 -  SCLGROUP Vault
+baseurl=http://vault.centos.org/6.5/sclo/$basearch/SCLGROUP/
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-6
+enabled=0
+
+[C6.6-sclo-SCLGROUP-vault]
+name=CentOS-6.6 -  SCLGROUP Vault
+baseurl=http://vault.centos.org/6.6/sclo/$basearch/SCLGROUP/
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-6
+enabled=0
+
+[C6.7-sclo-SCLGROUP-vault]
+name=CentOS-6.7 -  SCLGROUP Vault
+baseurl=http://vault.centos.org/6.7/sclo/$basearch/SCLGROUP/
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-6
+enabled=0
+
+[C6.8-sclo-SCLGROUP-vault]
+name=CentOS-6.8 -  SCLGROUP Vault
+baseurl=http://vault.centos.org/6.8/sclo/$basearch/SCLGROUP/
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-6
+enabled=0
+
+[C6.9-sclo-SCLGROUP-vault]
+name=CentOS-6.9 -  SCLGROUP Vault
+baseurl=http://vault.centos.org/6.9/sclo/$basearch/SCLGROUP/
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-6
+enabled=0
+
+[C6.10-sclo-SCLGROUP-vault]
+name=CentOS-6.10 -  SCLGROUP Vault
+baseurl=http://vault.centos.org/6.10/sclo/$basearch/SCLGROUP/
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-6
+enabled=0
