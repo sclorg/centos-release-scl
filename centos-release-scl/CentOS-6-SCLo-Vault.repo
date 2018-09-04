@@ -1,0 +1,34 @@
+# CentOS-6-SCLo-Vault.repo
+#
+# CentOS Vault holds packages from previous releases within the same CentOS Version
+# these are packages obsoleted by the current release and should usually not
+# be used in production
+#-----------------
+
+[C6.7-sclo-SCLGROUP-vault]
+name=CentOS-6.7 -  SCLGROUP Vault
+baseurl=http://vault.centos.org/6.7/sclo/$basearch/SCLGROUP/
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-6
+enabled=0
+
+[C6.8-sclo-SCLGROUP-vault]
+name=CentOS-6.8 -  SCLGROUP Vault
+baseurl=http://vault.centos.org/6.8/sclo/$basearch/SCLGROUP/
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-6
+enabled=0
+
+[C6.9-sclo-SCLGROUP-vault]
+name=CentOS-6.9 -  SCLGROUP Vault
+baseurl=http://vault.centos.org/6.9/sclo/$basearch/SCLGROUP/
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-6
+enabled=0
+
+[C6.10-sclo-SCLGROUP-vault]
+name=CentOS-6.10 -  SCLGROUP Vault
+baseurl=http://vault.centos.org/6.10/sclo/$basearch/SCLGROUP/
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-6
+enabled=0
