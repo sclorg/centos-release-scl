@@ -1,7 +1,7 @@
 Name:       centos-release-scl
 Epoch:      10
 Version:    6
-Release:    8%{?dist}
+Release:    9%{?dist}
 Summary:    Software collections from the CentOS SCLo SIG
 
 License:    GPLv2
@@ -36,6 +36,9 @@ install -m 644 %{SOURCE2} %{buildroot}/%{_docdir}/centos-release-scl
 %{_docdir}/centos-release-scl/*
 
 %changelog
+* Tue Oct 02 2018 Jan Staněk <jstanek@redhat.com> - 10:6-9
+- Use mirrorlist in the repo file
+
 * Mon Jan 18 2016 Honza Horak <hhorak@redhat.com> - 10:6-8
 - Use explicit releasever in repo file
 
