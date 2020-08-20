@@ -30,13 +30,6 @@ sudo yum-config-manager --enable rhel-server-rhscl-7-rpms
 For enabling Software Collections that are not in RHSCL, but are build by SCLo SIG group in CentOS, install this package by:
 
 ```
-sudo yum-config-manager --add-repo=https://copr.fedoraproject.org/coprs/rhscl/centos-release-scl/repo/epel-6/rhscl-centos-release-scl-epel-6.repo
-sudo yum install centos-release-scl
-```
-
-OR
-
-```
 sudo yum-config-manager --add-repo=https://copr.fedoraproject.org/coprs/rhscl/centos-release-scl/repo/epel-7/rhscl-centos-release-scl-epel-7.repo
 sudo yum install centos-release-scl
 ```
