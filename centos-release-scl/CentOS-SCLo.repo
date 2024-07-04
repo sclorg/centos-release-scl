@@ -5,15 +5,15 @@
 
 [centos-sclo-SCLGROUP]
 name=CentOS-$releasever - SCLo SCLGROUP
-#baseurl=http://mirror.centos.org/centos/$releasever/sclo/$basearch/SCLGROUP/
-mirrorlist=http://mirrorlist.centos.org?arch=$basearch&release=$releasever&repo=sclo-SCLGROUP
+baseurl=https://vault.centos.org/centos/$releasever/sclo/$basearch/SCLGROUP/
+mirrorlist=https://vault.centos.org?arch=$basearch&release=$releasever&repo=sclo-SCLGROUP
 gpgcheck=1
 enabled=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-SIG-SCLo
 
 [centos-sclo-SCLGROUP-testing]
 name=CentOS-$releasever - SCLo SCLGROUP Testing
-baseurl=http://buildlogs.centos.org/centos/$releasever/sclo/$basearch/SCLGROUP/
+baseurl=https://buildlogs.centos.org/centos/$releasever/sclo/$basearch/SCLGROUP/
 gpgcheck=1
 enabled=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-SIG-SCLo
