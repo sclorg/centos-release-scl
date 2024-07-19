@@ -4,6 +4,12 @@ This package provides yum Configs and basic docs for Software Collections
 as delivered via the CentOS SCLo SIG only (so called sclo namespace at
 https://wiki.centos.org/SpecialInterestGroup/SCLo).
 
+> [!WARNING]
+> **DEPRECATED** Please, mind that CentOS 7 is out of support already,
+> so it's possible that even this repository will not get needed updates.
+> Users of this repos are advised to not depend on the content here, as it
+> can be removed anytime.
+
 ## How to install SCLo packages on CentOS systems
 
 On CentOS, there are packages `centos-release-scl` and `centos-release-scl-rh`
